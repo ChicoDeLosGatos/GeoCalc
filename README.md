@@ -3,7 +3,7 @@ A PHP class made to work with distances between cities.
 
 # Basic usage
 
-`$unit = GeoCalc.KILOMETRES;`<br/>
+`$unit = GeoCalc::KILOMETRES;`<br/>
 `$valencia = new GeoCalc("Valencia", null, $unit);`<br/>
 `$madrid = new GeoCalc("Madrid", null, $unit);`<br/>
 `echo "Is Valencia near Madrid?";`<br/>
